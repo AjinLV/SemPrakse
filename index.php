@@ -29,10 +29,7 @@
 <div class="row">
   <div class="col-3 col-s-3 menu">
     <ul>
-      <li>Varbūt</li>
-      <li>Ielikt</li>
-      <li>Kautko</li>
-      <li>Interesantu</li>
+      <li><a href="https://github.com/AjinLV/SemPrakse/tree/main" target="_blank" rel="noopener noreferrer">Github </a></li>
     </ul>
   </div>
 
