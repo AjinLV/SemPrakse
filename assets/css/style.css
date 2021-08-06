@@ -49,6 +49,12 @@ body{
   position: absolute;
   bottom: -5px;
 }
+.contacts-border-top{
+  position: absolute;
+  top: 2590px;
+  background-color: #2F4858;
+  left: 0px;
+}
 
 .flex-container{
   background: rgb(255, 255, 255);
@@ -72,12 +78,6 @@ body{
   flex-flow: row nowrap;
 }
 
-.contacts-border-top{
-  position: absolute;
-  top: 2590px;
-  left: 0px;
-  background-color: #2F4858;
-}
 .image-gallery {
   max-height: 320px;
   overflow-y: hidden;
@@ -131,14 +131,14 @@ body{
   cursor:pointer;
   background-color:#fff;
   width:auto;
-      display: inline-block;
+  display: inline-block;
   -webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.42);
--moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.42);
-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.42);
+  -moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.42);
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.42);
   padding:10px 20px;
   -webkit-border-radius: 1em;
--moz-border-radius: 1em;
-border-radius: 500px;
+  -moz-border-radius: 1em;
+  border-radius: 500px;
   margin:10px;
 }
 
@@ -151,7 +151,7 @@ border-radius: 500px;
   -webkit-box-shadow: 0px 0px 0px 0px #d86a11;
   -moz-box-shadow: 0px 0px 0px 0px #d86a11;
   box-shadow: 0px 0px 0px 0px #d86a11;
-    -webkit-border-radius: 1em;
+  -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   border-radius: 500px;
   border: none;
@@ -177,51 +177,51 @@ border-radius: 500px;
   cursor: pointer;
   color: #505050e7;
   background-color: #cac5c5c7;
-  }
+}
 
 
-  .sazinies-box-telefons{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    display: flex;
-    border-radius: 10px;
-    border: none;
-    padding: 6px 5px;
-    width: 100%;
-    text-align: left;
-    cursor: pointer;
-    color: #505050e7;
-    background-color: #cac5c5c7;
-  }
+.sazinies-box-telefons{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  border-radius: 10px;
+  border: none;
+  padding: 6px 5px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  color: #505050e7;
+  background-color: #cac5c5c7;
+}
 
-  .sazinies-submit{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    -webkit-box-shadow: 0px 0px 0px 0px #d86a11;
-    -moz-box-shadow: 0px 0px 0px 0px #d86a11;
-    box-shadow: 0px 0px 0px 0px #d86a11;
-    padding: 6px 40px;
-    border-radius: 500px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    background-color: #d86a11;
-    color: #FFFFFF;
-  }
+.sazinies-submit{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  -webkit-box-shadow: 0px 0px 0px 0px #d86a11;
+  -moz-box-shadow: 0px 0px 0px 0px #d86a11;
+  box-shadow: 0px 0px 0px 0px #d86a11;
+  padding: 6px 40px;
+  border-radius: 500px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #d86a11;
+  color: #FFFFFF;
+}
 
-  .obligats-lauks{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #2F4858;
-  }
+.obligats-lauks{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2F4858;
+}
 
 .checkbox{
   font-family: Montserrat;
@@ -249,39 +249,35 @@ border-radius: 500px;
   font-size: 30px;
   line-height: 44px;
   text-align: center;
-
   color: #2F4858;
 }
 
 .help-text{
-font-family: Oswald;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 36px;
-text-align: center;
-
-color: #2F4858;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #2F4858;
 }
 .header-text{
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-color: #060606;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #060606;
 }
 
 .mid-text{
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-
-color: #2F4858;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #2F4858;
 }
 
 .footer {
